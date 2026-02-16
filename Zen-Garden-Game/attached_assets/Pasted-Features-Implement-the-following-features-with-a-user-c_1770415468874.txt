@@ -1,0 +1,55 @@
+Features
+Implement the following features with a user-centric, intuitive flow:
+1.  User Onboarding and Profile:
+	•  signup/login (email, Google/Apple auth; social media integration and preserve privacy).
+	•  Initial mood check-in: Quick slider or emoji-based assessment (e.g., “How are you feeling today? Stressed/Calm/Energized”) by using the front camera of any device that make use of 
+	•  Personalized setup: Set daily screen-time goals (e.g., “Aim for under 4 hours of non-essential use”) and preferred reminder styles (gentle nudges vs. none).
+	•  Privacy focus: All data stored locally or encrypted on server; users can export or downloaded for future purposes /delete data easily when needed but if it critical report to closed person add to the emergency contact of the users toand it can be p.
+2.  Mood Check-Ins:
+	•  Daily prompts (optional, not pushy) for users to log mood via emojis, short notes, or voice input and add  ai health assistance .
+	•  Visualize trends over time with soft charts (e.g., a calming wave graph showing mood improvements).
+	•  Suggest activities based on mood (e.g., “Feeling stressed? Try a breathing exercise”).
+		•  Puzzle-like: Simple mandala coloring or zen garden raking (touch-based, no timers).
+		•  Nature walk sim: Virtual stroll through serene landscapes with ambient sounds.
+	•  Games unlock progressively but not gated harshly; focus on enjoyment over completion.
+4.  Gem-Based Reward System:
+	•  Earn gems for positive actions: Completing a game (+5 gems), taking a screen break (+10), reducing screen time below goal (+20), finishing a breathing exercise (+5).
+	•  Redeem gems for customizations: Unlock new themes (e.g., forest, ocean), avatars, or virtual “wellness badges” (non-competitive, like “Mindful Explorer”) and add sounds that helps to relax 
+	•  No real-money purchases; gems reset softly weekly to encourage ongoing habits without pressure.
+5.  Screen-Time Tracking and Insights:
+	•  Integrate device APIs (e.g., Screen Time on iOS, Digital Wellbeing on Android) for passive tracking.
+	•  Provide gentle insights: Weekly summaries (e.g., “You reduced screen time by 15%—that’s more time for you!”).
+	•  Visuals: Pie charts in soft colors showing time breakdown (work vs. leisure); tips like “Try a 10-min break after 1 hour”.
+	•  Optional reminders: Subtle notifications (e.g., “Time for a quick stretch?”) with easy snooze/dismiss.
+6.  Daily Wellness Challenges:
+	•  Personalized, low-commitment challenges (e.g., “Breathe deeply for 2 minutes” or “Disconnect for 30 minutes outdoors”).
+	•  Track completion with progress bars; reward with gems and positive affirmations.
+	•  Adaptive: Based on user history, suggest easier challenges if mood is low by using the user’s device camera .
+7.  Disconnect and Rest Features:
+	•  “Zen Mode”: Temporarily lock non-essential apps with a calming overlay (user-initiated, easy to exit).
+	•  Offline support: Games and exercises work without internet.
+	•  Integration: Optional calendar sync for “digital detox” blocks.
+8.  Community and Sharing (Optional, Privacy-Focused):
+	•  Anonymous sharing of achievements (e.g., “I earned 50 gems this week!”) via in-app forum or exportable images.
+	•  No leaderboards; emphasize personal growth.
+Technical Requirements
+•  Frontend: Use React Native for cross-platform mobile app (iOS/Android). Ensure smooth performance with animations via libraries like Reanimated or Lottie. Implement accessible design (e.g., high contrast mode, voiceover support).
+•  Backend: Node.js with Express for API server. Use MongoDB or PostgreSQL for user data (encrypted). Handle authentication with JWT; integrate push notifications via Firebase.
+•  Fullstack Integration:
+	•  API Endpoints: User auth, mood logs, gem tracking, screen-time data sync, challenge generation.
+	•  Real-time features: WebSockets (Socket.io) for live updates if needed (e.g., gem earning).
+	•  Security: HTTPS, data validation, rate limiting; comply with GDPR/CCPA for privacy.
+•  Deployment: Suggest AWS/Heroku for hosting; include CI/CD with GitHub Actions.
+•  Testing: Unit tests (Jest), integration tests, and user flow testing for calmness (e.g., no frustrating bugs).
+•  Scalability: Design for 10k+ users; use caching (Redis) for frequent data like challenges.
+Deliverables
+•  Provide a detailed architecture diagram (text-based or ASCII art).
+•  Write complete, production-ready code for key components:
+	•  Frontend screens (e.g., Home Dashboard, Game Screen, Insights Page).
+	•  Backend models/routes (e.g., User model, Gem API).
+	•  Database schema.
+•  Include wireframes or UI mockups in text description.
+•  Suggest monetization (if any): Free with optional donations to mental health orgs.
+Daily Health record download can be shared by the users when needed 
+•  Edge Cases: Handle offline mode, data loss prevention, accessibility for color-blind users.
+Ensure the app feels friendly and supportive throughout
